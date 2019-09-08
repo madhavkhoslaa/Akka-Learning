@@ -1,0 +1,45 @@
+INFO  time: initialize in 0.19s
+WARN  no build target: /home/fatjuicyboi/Documents/Programming/Akka-Learning/src/main/scala/Revision/Recap1.scala
+INFO  running '/usr/lib/jvm/java-8-openjdk/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals221739153549139809/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/fatjuicyboi/.sbt/1.0/plugins
+INFO  [info] Loading project definition from /home/fatjuicyboi/Documents/Programming/Akka-Learning/project
+INFO  [success] Generated .bloop/akka-learning-build.json
+INFO  [success] Total time: 1 s, completed 5 Sep, 2019 9:26:20 PM
+INFO  [info] Loading settings for project akka-learning from build.sbt ...
+INFO  [info] Set current project to Akka-Learning (in build file:/home/fatjuicyboi/Documents/Programming/Akka-Learning/)
+INFO  [info] Set current project to Akka-Learning (in build file:/home/fatjuicyboi/Documents/Programming/Akka-Learning/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [success] Generated .bloop/akka-learning.json
+INFO  [success] Generated .bloop/akka-learning-test.json
+INFO  [success] Total time: 7 s, completed 5 Sep, 2019 9:26:28 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 17s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp2508401277919670419/e51to8gju7y.socket'
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.9/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.9/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.9/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.9/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.9/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.9/
+The server is listening for incoming connections at local:///tmp/bsp2508401277919670419/e51to8gju7y.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp2508401277919670419/e51to8gju7y.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/fatjuicyboi/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.4s
+BSP initialization handshake complete.
+WARN  Could not find java sources in None. Java symbols will not be available.
+INFO  time: indexed workspace in 0.91s
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.7/0.7.2/mtags_2.12.7-0.7.2.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.7/0.7.2/mtags_2.12.7-0.7.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.7/0.7.2/mtags_2.12.7-0.7.2.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.7/0.7.2/mtags_2.12.7-0.7.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.7/0.7.2/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.7/0.7.2/
+INFO  compiling akka-learning (2 scala sources)
+INFO  time: compiled akka-learning in 2s
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in /home/fatjuicyboi/Documents/Programming/Akka-Learning/.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0

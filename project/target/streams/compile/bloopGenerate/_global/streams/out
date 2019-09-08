@@ -1,0 +1,4 @@
+[debug] [akka-learning-build] Classpath dependencies List()
+[debug] [akka-learning-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'akka-learning-build' to '/home/fatjuicyboi/Documents/Programming/Akka-Learning/project/.bloop/akka-learning-build.json'
+[success] Generated .bloop/akka-learning-build.json
